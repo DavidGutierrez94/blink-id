@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="BlinkIDApp.BlinkIDPage">
+	<ContentPage.Content>
+		<ScrollView>
+		<StackLayout Spacing="10" Padding="30" >
+			<Label Text="info prod doc:" />
+			<Editor x:Name="resultsEditor0"
+				IsEnabled="true" 
+				Text="?"
+				HeightRequest="50" 
+				TextColor="Black" 
+				BackgroundColor="White" 
+				FontSize="Medium" />
+			<Label Text="info prod doc2:" />
+			<Editor x:Name="resultsEditor1"
+				IsEnabled="true" 
+				Text="?"
+				HeightRequest="50" 
+				TextColor="Black" 
+				BackgroundColor="White" 
+				FontSize="Medium" />
+			<Label Text="No. de documento:" />
+			<Editor x:Name="resultsEditor2"
+				IsEnabled="true" 
+				Text="?"
+				HeightRequest="50" 
+				TextColor="Black" 
+				BackgroundColor="White" 
+				FontSize="Medium" />
+			<Label Text="apellidos:" />
+			<Editor x:Name="resultsEditor3"
+				IsEnabled="true" 
+				Text="?"
+				HeightRequest="50" 
+				TextColor="Black" 
+				BackgroundColor="White" 
+				FontSize="Medium" />
+			<Label Text="nombres:" />
+			<Editor x:Name="resultsEditor4"
+				IsEnabled="true" 
+				Text="?"
+				HeightRequest="50" 
+				TextColor="Black" 
+				BackgroundColor="White" 
+				FontSize="Medium" />
+			<Label Text="sexo/fecha de nacimiento/RH:" />
+			<Editor x:Name="resultsEditor"
+				IsEnabled="true" 
+				Text="?"
+				HeightRequest="50" 
+				TextColor="Black" 
+				BackgroundColor="White" 
+				FontSize="Medium" />
+			
+<Button x:Name="startScanningButton" Text="Start scanning" Clicked="StartScan" />
+			<Image x:Name="metadataImage" 
+				WidthRequest="200"
+				HeightRequest="150"  />
+		</StackLayout>
+	  </ScrollView>
+	</ContentPage.Content>
+</ContentPage>
